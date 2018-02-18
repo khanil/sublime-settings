@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+import PropTypes from 'prop-types';
+
+const propTypes = {};
+
+const defaultProps = {};
+
+function ${1}(props) {
+  return (
+
+  );
+}
+
+${1}.propTypes = propTypes;
+${1}.defaultProps = defaultProps;
+
+export default ${1};
+
+]]></content>
+  <tabTrigger>fcomponent</tabTrigger>
+  <scope>source.js</scope>
+  <description>React functional component</description>
+</snippet>

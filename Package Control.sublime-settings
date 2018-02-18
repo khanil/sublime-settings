@@ -1,0 +1,16 @@
+{
+	"installed_packages":
+	[
+		"Babel",
+		"BracketHighlighter",
+		"CSS3",
+		"Emmet",
+		"Markdown Preview",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"TrailingSpaces"
+	]
+}

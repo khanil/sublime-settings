@@ -1,0 +1,33 @@
+<snippet>
+  <content><![CDATA[
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+const propTypes = {};
+
+const defaultProps = {};
+
+class ${1} extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    const {} = this.props;
+
+    return (
+      <div></div>
+    );
+  }
+}
+
+${1}.propTypes = propTypes;
+${1}.defaultProps = defaultProps;
+
+export default ${1};
+
+]]></content>
+  <tabTrigger>ccomponent</tabTrigger>
+  <scope>source.js</scope>
+  <description>React class component</description>
+</snippet>
